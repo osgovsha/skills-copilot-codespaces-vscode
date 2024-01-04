@@ -1,10 +1,9 @@
-function skillMember() {
+function skillsMember() {
   return {
-    name: 'skillMember',
-    path: '/skillMember',
-    meta: {
-      title: '',
-      icon: 'skillMember'
+    restrict: 'E',
+    templateUrl: 'templates/skills-member.html',
+    scope: {
+      member: '='
     }
-  }
+  };
 }
